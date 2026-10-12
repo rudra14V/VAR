@@ -1,0 +1,34 @@
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/MemoryCaptures/
+*.csproj
+*.sln
+*.slnx
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+/Logs/
+/UserSettings/
+/UserSettings.meta
+
+# Generated IDE and build metadata
+.vs/
+.idea/
+*.user
+*.userprefs
+*.suo
+*.unityproj
+*.pidb.meta
+sysinfo.txt
+
+# OS files
+.DS_Store
+Thumbs.db

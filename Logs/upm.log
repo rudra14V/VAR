@@ -1,0 +1,69 @@
+[2026-10-12T05:12:33.457Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.3f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 13960 --ipc-path Unity-Upm-13960 -l 2 --log-file 'D:\\My project (7)/Logs/upm.log'
+[2026-10-12T05:12:33.581Z][INFO] IPC server started (IPC path=Unity-Upm-13960).
+[2026-10-12T05:12:33.581Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-13960.
+[2026-10-12T05:12:38.482Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:12:38.634Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-12T05:12:38.700Z][INFO] config:project:get-registries --> 200 (66 ms)
+[2026-10-12T05:12:39.075Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:12:39.161Z][INFO] project:list-packages --> 200 (679 ms)
+[2026-10-12T05:12:39.682Z][INFO] project:list-packages --> 200 (607 ms)
+[2026-10-12T05:12:46.852Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:12:46.966Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:12:47.440Z][INFO] project:list-packages --> 200 (588 ms)
+[2026-10-12T05:12:47.493Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:12:47.670Z][INFO] project:list-packages --> 200 (704 ms)
+[2026-10-12T05:12:47.961Z][INFO] project:list-packages --> 200 (468 ms)
+[2026-10-12T05:12:48.267Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-12T05:12:48.277Z][INFO] config:project:get-registries --> 200 (10 ms)
+[2026-10-12T05:12:48.512Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-10-12T05:12:48.537Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:12:49.827Z][INFO] packages:get-all-packageinfo --> 200 (1315 ms)
+[2026-10-12T05:12:50.075Z][INFO] project:list-packages --> 200 (1538 ms)
+[2026-10-12T05:12:56.328Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:12:56.774Z][INFO] project:list-packages --> 200 (446 ms)
+[2026-10-12T05:13:01.704Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:13:02.089Z][INFO] project:list-packages --> 200 (385 ms)
+[2026-10-12T05:13:07.437Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:13:07.519Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:13:08.079Z][INFO] project:list-packages --> 200 (643 ms)
+[2026-10-12T05:13:08.148Z][INFO] project:list-packages --> 200 (629 ms)
+[2026-10-12T05:13:08.239Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:13:08.578Z][INFO] project:list-packages --> 200 (340 ms)
+[2026-10-12T05:13:08.811Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-12T05:13:08.821Z][INFO] config:project:get-registries --> 200 (9 ms)
+[2026-10-12T05:13:20.437Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:13:20.810Z][INFO] project:list-packages --> 200 (373 ms)
+[2026-10-12T05:13:22.677Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:13:22.701Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:13:23.195Z][INFO] project:list-packages --> 200 (494 ms)
+[2026-10-12T05:13:28.947Z][INFO] project:list-packages --> 200 (6270 ms)
+[2026-10-12T05:20:07.752Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:20:08.719Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:20:09.091Z][INFO] project:list-packages --> 200 (1339 ms)
+[2026-10-12T05:20:09.213Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-12T05:20:09.234Z][INFO] config:project:get-registries --> 200 (20 ms)
+[2026-10-12T05:20:09.430Z][INFO] project:list-packages --> 200 (711 ms)
+[2026-10-12T05:20:38.542Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T05:20:38.915Z][INFO] project:list-packages --> 200 (374 ms)

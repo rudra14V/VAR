@@ -1,0 +1,1083 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 21204)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 5404)
+VBCSCompiler prewarm took 170.70 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-v_rudra_14" at "2026-10-12T04:20:16.4268027Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15709 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-12T04:20:16Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+-projectpath
+D:\My project (7)
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-v_rudra_14
+-hubSessionId
+8e8a5826-278e-4206-9b95-818452ae21d3
+-accessToken
+PiBN8CmqGUAy_RIWDSb7_gOhKomVhVprcQrwlEKowXs00cf
+Successfully changed project path to: D:\My project (7)
+D:/My project (7)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [15464]  Target information:
+
+Player connection [15464]  * "[IP] 192.168.202.1 [Port] 55504 [Flags] 2 [Guid] 2075021393 [EditorId] 2075021393 [Version] 1048832 [Id] WindowsEditor(7,V_RUDRA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15464]  * "[IP] 192.168.225.1 [Port] 55504 [Flags] 2 [Guid] 2075021393 [EditorId] 2075021393 [Version] 1048832 [Id] WindowsEditor(7,V_RUDRA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15464]  * "[IP] 172.16.0.2 [Port] 55504 [Flags] 2 [Guid] 2075021393 [EditorId] 2075021393 [Version] 1048832 [Id] WindowsEditor(7,V_RUDRA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15464]  * "[IP] 10.0.99.110 [Port] 55504 [Flags] 2 [Guid] 2075021393 [EditorId] 2075021393 [Version] 1048832 [Id] WindowsEditor(7,V_RUDRA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15464] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4944, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              a77177a0358949849c712678cc78bd02
+  Correlation Id:          61aeb93eefe796897c1474aed258efb9
+  External correlation Id: 723317416023301680
+  Machine Id:              TDHd9PIacSLVIrgHTQfvktvkJpg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-v_rudra_14" (connect: 0.00s, validation: 0.01s, handshake: 0.54s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-v_rudra_14-notifications" at "2026-10-12T04:20:16.9679837Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token PiBN8CmqGU...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469966753960-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.62s
+[Package Manager] Connected to IPC stream "Upm-3684" after 0.8 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 45c442418746d7b0373b59107ce25094
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = D:/My project (7)Unity Data Store running and initialised
+Refreshing native plugins compatible for Editor in 4.70 ms, found 0 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/My project (7)/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.9282
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 1.363894 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  6.083 seconds
+Domain Reload Profiling: 13765ms
+	BeginReloadAssembly (706ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (419ms)
+	initialDomainReloadingComplete (1895ms)
+	LoadAllAssembliesAndSetupDomain (4643ms)
+		LoadAssemblies (718ms)
+		TypeCache.Refresh (4269ms)
+			TypeCache.ScanAssembly (3720ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (6087ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (199ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (3592ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 66 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: D:\My project (7)\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: D:\My project (7)\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: D:\My project (7)\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: D:\My project (7)\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: D:\My project (7)\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: D:\My project (7)\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.xr.interaction.toolkit@3.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.interaction.toolkit@c7557c6c9ee4)
+    com.unity.xr.management@4.7.0 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.management@2ad85c7dd480)
+    com.unity.xr.oculus@4.5.5 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.oculus@bd9286b5058f)
+    com.unity.xr.openxr@1.18.0 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be)
+    com.unity.xr.core-utils@2.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.searcher@4.9.5 (location: D:\My project (7)\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: D:\My project (7)\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: D:\My project (7)\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.render-pipelines.universal@327d93d1cbc8)
+    com.unity.test-framework@1.8.0 (location: D:\My project (7)\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.ugui@0727b404f3a0)
+    com.unity.modules.accessibility@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.mathematics@1.4.0 (location: D:\My project (7)\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.ext.nunit@2.1.0 (location: D:\My project (7)\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.render-pipelines.core@02d75770e4b3)
+    com.unity.shadergraph@17.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.shadergraph@1dd0fd24b57e)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.test-framework.performance@b6023decb532)
+[Package Manager] com.unity.xr.oculus is deprecated: This package is no longer supported on this editor version.
+[Subsystems] Looking for new subsystems at path D:\My project (7)\Library\PackageCache\com.unity.xr.oculus@bd9286b5058f
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.oculus@bd9286b5058f/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/My project (7)/Assets
+[Subsystems] Discovering subsystems at path D:\My project (7)\Library\PackageCache\com.unity.xr.oculus@bd9286b5058f
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.oculus@bd9286b5058f/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.oculus@bd9286b5058f/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.oculus@bd9286b5058f/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.oculus@bd9286b5058f/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] Discovering subsystems at path D:\My project (7)\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json.
+[Package Manager] Done registering packages in 0.10 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/My project (7)
+ExitCode: 0 Duration: 13s
+[1019/1334  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1326/1334  9s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\VR Beginner\Scripts\Gameplay\WatchScript.cs(41,48): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\WatchScript.cs(41,21): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\DiningChalicePuzzle.cs(68,98): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\DiningChalicePuzzle.cs(68,38): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(47,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(66,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(73,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(85,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(92,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomManager.cs(261,30): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomManager.cs(264,30): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\DayNightCycle.cs(123,62): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\DayNightCycle.cs(123,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(101,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(132,105): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(132,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(138,102): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(138,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(157,92): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(157,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(168,116): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(168,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(212,99): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(212,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\DayNightCycle.cs(160,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\DayNightCycle.cs(160,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(370,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(390,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(400,35): warning CS0618: 'Object.FindFirstObjectByType<T>(FindObjectsInactive)' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(443,59): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(443,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(577,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(621,36): warning CS0618: 'Object.FindFirstObjectByType<T>(FindObjectsInactive)' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(644,98): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(644,39): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(741,94): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(741,35): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(1161,72): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(1161,40): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+[1327/1334  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\VR Beginner\Scripts\Editor\EscapeRoomSetupEditor.cs(19,36): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\EscapeRoomSetupEditor.cs(27,37): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\EscapeRoomSetupEditor.cs(35,33): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\EscapeRoomSetupEditor.cs(43,40): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(66,112): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(66,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(76,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(83,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(100,112): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(100,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(110,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(116,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(155,80): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(155,35): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(165,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(171,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(133,112): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(133,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(151,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(158,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(165,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(172,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(189,80): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(189,35): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(199,74): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(199,30): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(217,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(223,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(146,91): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(146,40): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(238,106): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(238,32): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(246,74): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(246,30): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(263,91): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(263,40): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(431,124): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(431,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(437,121): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(437,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(473,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(479,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(485,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(491,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[1328/1334  2s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 149 defines and 406 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1329/1334  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1330/1334  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[1331/1334  3s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 148 defines and 385 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1332/1334  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1333/1334  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (13.51 seconds), 9 items updated, 1334 evaluated
+Assets\VR Beginner\Scripts\Gameplay\WatchScript.cs(41,48): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\WatchScript.cs(41,21): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\DiningChalicePuzzle.cs(68,98): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\DiningChalicePuzzle.cs(68,38): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(47,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(66,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(73,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(85,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(92,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomManager.cs(261,30): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomManager.cs(264,30): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\DayNightCycle.cs(123,62): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\DayNightCycle.cs(123,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(101,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(132,105): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(132,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(138,102): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(138,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(157,92): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(157,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(168,116): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(168,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(212,99): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(212,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\DayNightCycle.cs(160,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\DayNightCycle.cs(160,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(370,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(390,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(400,35): warning CS0618: 'Object.FindFirstObjectByType<T>(FindObjectsInactive)' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(443,59): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(443,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(577,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(621,36): warning CS0618: 'Object.FindFirstObjectByType<T>(FindObjectsInactive)' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(644,98): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(644,39): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(741,94): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(741,35): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(1161,72): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs(1161,40): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\EscapeRoomSetupEditor.cs(19,36): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\EscapeRoomSetupEditor.cs(27,37): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\EscapeRoomSetupEditor.cs(35,33): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\EscapeRoomSetupEditor.cs(43,40): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(66,112): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(66,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(76,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(83,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(100,112): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(100,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(110,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(116,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(155,80): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(155,35): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(165,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(171,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(133,112): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(133,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(151,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(158,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(165,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixEscapeRoomAllLevels.cs(172,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(189,80): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(189,35): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(199,74): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(199,30): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(217,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\FixPinkShadersAndCameras.cs(223,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(146,91): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(146,40): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(238,106): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(238,32): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(246,74): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(246,30): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(263,91): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(263,40): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(431,124): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(431,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(437,121): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(437,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(473,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(479,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(485,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\VR Beginner\Scripts\Editor\CampaignLevelBuilder.cs(491,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+AssetDatabase: script compilation time: 15.945647s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 587.70 ms, found 13 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 16.74 ms, found 13 plugins.
+[XR] OculusXRPlugin: registering subsystems
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] Oculus Input lifecycle provider registered.
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus input
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] OVRP version 1.92.0
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.495 seconds
+Domain Reload Profiling: 10060ms
+	BeginReloadAssembly (860ms)
+		DisableScriptedObjects (147ms)
+		CreateAndSetChildDomain (210ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (204ms)
+	LoadAllAssembliesAndSetupDomain (5422ms)
+		LoadAssemblies (4313ms)
+		TypeCache.Refresh (804ms)
+			TypeCache.ScanAssembly (775ms)
+		AnalyzeDomain (201ms)
+			BuildScriptInfoCaches (176ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3498ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			BeforeProcessingInitializeOnLoad (333ms)
+			ProcessInitializeOnLoadAttributes (1438ms)
+			ProcessInitializeOnLoadMethodAttributes (263ms)
+			AfterProcessingInitializeOnLoad (29ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (67ms)
+Starting new worker id: 0 with log in D:/My project (7)/Logs/AssetImportWorkerHW0.log
+Refreshing native plugins compatible for Editor in 18.73 ms, found 13 plugins.
+
+Asset Pipeline Refresh (id=632e9ad4fa9de4e40b4d9a6c6ab0d9f5): Total: 47.590 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=23878 ms
+		Asset DB Callback time: managed=638 ms, native=194 ms
+		Scripting: domain reloads=1, domain reload time=6744 ms, compile time=15952 ms, other=182 ms
+		Project Asset Count: scripts=1966, non-scripts=3357
+		Asset File Changes: new=0, changed=4, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 162.596ms
+	ApplyChangesToAssetFolders: 1.422ms
+	Scan: 633.465ms
+	Collect global state as custom dependencies: 64.248ms
+	OnSourceAssetsModified: 1.903ms
+	CategorizeScriptCompilationAssets: 4206.478ms
+	ProcessAssetsWithTransientArtifactChanges: 253.717ms
+	CategorizeAssets: 232.650ms
+	CompileScripts: 15952.332ms
+	ImportOutOfDateAssets: 4389.347ms (4357.617ms without children)
+		ReloadNativeAssets: 0.134ms
+		UnloadImportedAssets: 4.528ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.296ms
+		ImportSchedulerStart: 24.764ms
+	PostProcessAllAssets: 648.202ms
+		VCAutoAddAssetPostprocess 5.565ms
+		XRBuildSystem.XRAssetImported 3.367ms
+		WindowTitlePostprocess 0.329ms
+		PostProcessCallbackCreateDeferredMaterials 0.127ms
+		MonoPostProcessAllAssets: 636.848ms
+			AssetPostprocessor.OnPostprocessAllAssets 307.617ms
+			AssetCallbacks.OnPostprocessAllAssets 70.030ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 66.263ms
+			SyncVS.PostprocessSyncProject 55.931ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 37.941ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 15.890ms
+			AssetChangedListener.OnPostprocessAllAssets 15.419ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.090ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.884ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 4.267ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.318ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.139ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.906ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.708ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.280ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.148ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 1.121ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 1.051ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.048ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 1.007ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.887ms
+			PostProcessor.OnPostprocessAllAssets 0.870ms
+			AssetEvents.OnPostprocessAllAssets 0.833ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.808ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.718ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.499ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.487ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.443ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.434ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.380ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.343ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.342ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.342ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.321ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.197ms
+	PostAssetChangesProfiler: 24.683ms
+	UnloadStreamsBegin: 3.054ms
+	PersistCurrentRevisions: 0.390ms
+	GenerateScriptTypeHashes: 16.926ms
+	GenerateScriptTypeSerializationHashes: 28.294ms
+	Untracked: 20962.760ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Scanning for USB devices : 10.927ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project (7)
+Worker ready: AssetImportWorkerHW0 0
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Level1_DiningRoom.unity'
+	Deserialize:            27.800 ms
+	Integration:            112.461 ms
+	Integration of assets:  0.118 ms
+	Thread Wait Time:       0.057 ms
+	Total Operation Time:   140.436 ms
+Unloading 7903 unused Assets / (12.8 MB). Loaded Objects now: 9385.
+Memory consumption went from 508.4 MB to 495.6 MB.
+Total: 25.087000 ms (FindLiveObjects: 1.474000 ms CreateObjectMapping: 0.671300 ms MarkObjects: 15.255800 ms  DeleteObjects: 7.014200 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout D:\My project (7)\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/imv25/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+[Project] Loading completed in 94.488 seconds
+	Project init time: 				80.316 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.848 seconds
+		Asset Database init time: 		2.697 seconds
+		Global illumination init time: 	0.016 seconds
+		Assemblies load time: 			22.613 seconds
+		Unity extensions init time: 	0.053 seconds
+		Asset Database refresh time: 	47.590 seconds
+	Scene opening time: 			13.599 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791778910699,"processId":3684,"projectLoad":94.4884285,"projectInit":80.3157092,"templateInit":0.0,"packageManagerInit":0.8477082,"assetDatabaseInit":2.6971878,"globalIlluminationInit":0.0155543,"assembliesLoad":22.6133453,"unityExtensionsInit":0.0530525,"assetDatabaseRefresh":47.5904725,"sceneOpening":13.5990351}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791778910699,"processId":3684,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=88969dc0d1fe18c41b208fef86837242): Total: 0.214 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+Dynamic Batching has been removed and no longer has any effect. Use SRP Batcher or GPU Instancing instead. Disable Dynamic Batching in the Universal Render Pipeline Asset to remove this error.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineBatchingWarning:WarnIfDynamicBatchingEnabled () (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Editor/UniversalRenderPipelineAsset/UniversalRenderPipelineBatchingWarning.cs:31)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.EditorGUIUtility:RenderPlayModeViewCamerasInternal (UnityEngine.RenderTexture,int,UnityEngine.Vector2,bool,bool)
+UnityEditor.PlayModeView:RenderView (UnityEngine.Vector2,bool)
+UnityEditor.GameView:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint ()
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,System.Exception&)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Texture,UnityEngine.UIElements.UIR.ShaderInfoAllocator,System.Nullable`1<UnityEngine.Rect>,UnityEngine.Rect,single,bool,UnityEngine.UIElements.TextureSlotCount,bool,System.Exception&,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree,UnityEngine.RenderTexture,UnityEngine.RectInt,UnityEngine.Rect)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderRootTree ()
+UnityEngine.UIElements.UIRRepaintUpdater:Render ()
+UnityEngine.UIElements.BaseVisualElementPanel:Render ()
+UnityEngine.UIElements.Panel:Render ()
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Editor/UniversalRenderPipelineAsset/UniversalRenderPipelineBatchingWarning.cs Line: 31)
+
+Android Extension - Scanning For ADB Devices 2522 ms
+[Licensing::Client] Successfully resolved entitlement details
+[EscapeRoom] Launching Escape Room Campaign in Unity Play Mode (Assets/Scenes/Level1_DiningRoom.unity)! Enjoy playing!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Editor.EscapeRoomPlayRunner:LaunchGameInUnity () (at Assets/VR Beginner/Scripts/Editor/EscapeRoomPlayRunner.cs:57)
+VRBeginner.Editor.EscapeRoomPlayRunner:OnEditorReady () (at Assets/VR Beginner/Scripts/Editor/EscapeRoomPlayRunner.cs:31)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/VR Beginner/Scripts/Editor/EscapeRoomPlayRunner.cs Line: 57)
+
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 14.60 ms, found 13 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 14.27 ms, found 13 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  4.617 seconds
+Domain Reload Profiling: 6717ms
+	BeginReloadAssembly (1184ms)
+		DisableScriptedObjects (283ms)
+		CreateAndSetChildDomain (416ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (200ms)
+	LoadAllAssembliesAndSetupDomain (643ms)
+		LoadAssemblies (400ms)
+		TypeCache.Refresh (14ms)
+		AnalyzeDomain (76ms)
+			ResolveRequiredComponents (65ms)
+	FinalizeReload (4620ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			BeforeProcessingInitializeOnLoad (255ms)
+			ProcessInitializeOnLoadAttributes (1206ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (1680ms)
+No restricted APIs configured; Validation skipped.
+Checking 18 assemblies for restricted APIs found 0 usage(s) in 10 ms
+Refreshing native plugins compatible for Editor in 14.08 ms, found 13 plugins.
+
+Asset Pipeline Refresh (id=42887f83690152a41b5dab996b3d73b4): Total: 10.936 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=5513 ms
+		Asset DB Callback time: managed=2573 ms, native=569 ms
+		Scripting: domain reloads=1, domain reload time=2273 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=1966, non-scripts=3357
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 4.015ms
+	ApplyChangesToAssetFolders: 0.507ms
+	Collect global state as custom dependencies: 5.647ms
+	ProcessAssetsWithTransientArtifactChanges: 533.285ms
+	CategorizeAssets: 179.328ms
+	CompileScripts: 5.018ms
+	ImportOutOfDateAssets: 4669.176ms (4655.675ms without children)
+		CollectScriptTypesHashes: 4.005ms
+		ReloadNativeAssets: 3.361ms
+		UnloadImportedAssets: 7.207ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.315ms
+		ImportSchedulerStart: 0.550ms
+	PostProcessAllAssets: 3102.989ms
+		AssemblyValidation.PostprocessAllAssets 93.471ms
+		PostProcessCallbackCreateDeferredMaterials 64.387ms
+		PostprocessAssetsUpdateCachedIcon 51.291ms
+		ComputeShaderImportPostprocess 27.745ms
+		ShaderAssetModifiedCallback 26.998ms
+		RaytracingShaderImportPostprocess 21.162ms
+		SpeedTreeImporter.PostprocessAllAssets 18.070ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 10.919ms
+		BlockShaderImporter.PostprocessAllAssets 9.578ms
+		XRBuildSystem.XRAssetImported 1.855ms
+		MonoPostProcessAllAssets: 2564.539ms
+			SyncVS.PostprocessSyncProject 902.723ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 573.165ms
+			AssetCallbacks.OnPostprocessAllAssets 199.412ms
+			AssetPostprocessor.OnPostprocessAllAssets 142.734ms
+			PostProcessor.OnPostprocessAllAssets 129.260ms
+			MaterialPostprocessor.OnPostprocessAllAssets 104.537ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 91.635ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 82.837ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 53.053ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 42.636ms
+			AssetChangedListener.OnPostprocessAllAssets 36.132ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 22.844ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 13.254ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 12.914ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 6.923ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.155ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 1.457ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.361ms
+			ThemePostprocessor.OnPostprocessAllAssets 1.234ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.049ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.906ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.896ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.774ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.738ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.705ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.703ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.686ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.664ms
+			AssetEvents.OnPostprocessAllAssets 0.515ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.394ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.360ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.344ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.310ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.282ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.196ms
+	PostAssetChangesProfiler: 39.180ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.376ms
+	UnloadStreamsBegin: 2.705ms
+	PersistCurrentRevisions: 0.306ms
+	GenerateScriptTypeHashes: 18.904ms
+	GenerateScriptTypeSerializationHashes: 31.641ms
+	Untracked: 2348.137ms
+
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus input
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Display
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus input
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Input
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Display
+Loading OpenXR loader library at path: D:\My project (7)\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be\RuntimeLoaders\windows\x64\openxr_loader.dll
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:LoadOpenXRSymbols () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:572)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:254)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:224)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRManagerSettings.cs:177)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:154)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:112)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs Line: 572)
+
+[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+[XR] [15464] [09:52:10.962][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [15464] [09:52:10.963][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+[XR] [15464] [09:52:10.964][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [15464] [09:52:10.964][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : Failed loading runtime information
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : xrCreateInstance failed
+[XR] [15464] [09:52:10.965][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [15464] [09:52:10.965][Info   ] Available Layers: (0)
+[XR] [15464] [09:52:10.966][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [15464] [09:52:10.995][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [15464] [09:52:10.997][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [15464] [09:52:10.997][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [15464] [09:52:10.997][Info   ] ==== OpenXR Settings ====
+[XR] [15464] [09:52:10.997][Info   ] 
+[XR] [15464] [09:52:10.997][Info   ] Symmetric Projection: False
+[XR] [15464] [09:52:10.997][Info   ] Stereo Rendering Mode: MultiPass
+[XR] [15464] [09:52:10.997][Info   ] Latency Optimization: PrioritizeRendering
+[XR] [15464] [09:52:10.997][Info   ] Color Submission Modes: kRenderTextureFormatGroup8888
+[XR] [15464] [09:52:10.997][Info   ] Depth Submission Mode: None
+[XR] [15464] [09:52:10.997][Info   ] Space Warp Motion Vector Texture Format: RGBA16f
+[XR] [15464] [09:52:10.997][Info   ] Optimize Buffer Discards: False
+[XR] [15464] [09:52:10.997][Info   ] Multiview Render Regions Optimization Mode: None
+[XR] [15464] [09:52:10.997][Info   ] Use OpenXR Predicted Time: False
+[XR] [15464] [09:52:10.997][Info   ] Foveated Rendering API: Legacy
+[XR] [15464] [09:52:10.997][Info   ] 
+[XR] [15464] [09:52:10.997][Info   ] ==== OpenXR Provider Info ====
+[XR] [15464] [09:52:10.997][Info   ] 
+[XR] [15464] [09:52:10.998][Info   ] Provider Version: ecb5f4e-dirty
+[XR] [15464] [09:52:10.998][Info   ] App: My project (7) #3118937138
+[XR] [15464] [09:52:10.998][Info   ] Engine: 6000.6.3f1 #90190849
+[XR] [15464] [09:52:10.998][Info   ] 
+[XR] [15464] [09:52:10.998][Info   ] ==== OpenXR Runtime Info ====
+[XR] [15464] [09:52:10.998][Info   ] 
+[XR] [15464] [09:52:10.998][Info   ] Available Layers: (0)
+[XR] [15464] [09:52:10.998][Info   ] 
+[XR] [15464] [09:52:10.998][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [15464] [09:52:10.998][Info   ] [FAILURE] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE (5x)
+[XR] [15464] [09:52:10.998][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE (1x)
+[XR] [15464] [09:52:10.998][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [15464] [09:52:10.998][Info   ] 
+[XR] [15464] [09:52:10.998][Info   ] ==== Last 20 Events ====
+[XR] [15464] [09:52:10.998][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+[EscapeRoomBootstrap] First-Person Player Mode successfully initialized at (0.00, 0.15, -3.50) in Level1_DiningRoom!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.EscapeRoomBootstrap:SetupPlayer () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:250)
+VRBeginner.Gameplay.EscapeRoomBootstrap:Awake () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:58)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 250)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.908 ms
+	Integration:            1397.894 ms
+	Integration of assets:  0.048 ms
+	Thread Wait Time:       0.052 ms
+	Total Operation Time:   1401.902 ms
+Dynamic Batching has been removed and no longer has any effect. Use SRP Batcher or GPU Instancing instead. Disable Dynamic Batching in the Universal Render Pipeline Asset to remove this error.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineBatchingWarning:WarnIfDynamicBatchingEnabled () (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Editor/UniversalRenderPipelineAsset/UniversalRenderPipelineBatchingWarning.cs:31)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.EditorGUIUtility:RenderPlayModeViewCamerasInternal (UnityEngine.RenderTexture,int,UnityEngine.Vector2,bool,bool)
+UnityEditor.PlayModeView:RenderView (UnityEngine.Vector2,bool)
+UnityEditor.GameView:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint ()
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,System.Exception&)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Texture,UnityEngine.UIElements.UIR.ShaderInfoAllocator,System.Nullable`1<UnityEngine.Rect>,UnityEngine.Rect,single,bool,UnityEngine.UIElements.TextureSlotCount,bool,System.Exception&,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree,UnityEngine.RenderTexture,UnityEngine.RectInt,UnityEngine.Rect)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderRootTree ()
+UnityEngine.UIElements.UIRRepaintUpdater:Render ()
+UnityEngine.UIElements.BaseVisualElementPanel:Render ()
+UnityEngine.UIElements.Panel:Render ()
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Editor/UniversalRenderPipelineAsset/UniversalRenderPipelineBatchingWarning.cs Line: 31)
+
+Created GICache directory at C:/Users/imv25/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.103s, timestamps: [94.777 - 94.880]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "PiBN8Cmq"... (expires: 2026-10-12T06:19:12Z)
+Android Extension - Scanning For ADB Devices 476 ms
+Android Extension - Scanning For ADB Devices 412 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+[Licensing::Client] Successfully resolved entitlement details
+Android Extension - Scanning For ADB Devices 411 ms
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.037 ms
+	Integration:            39.957 ms
+	Integration of assets:  0.057 ms
+	Thread Wait Time:       0.068 ms
+	Total Operation Time:   44.119 ms
+Unloading 6928 unused Assets / (22.1 MB). Loaded Objects now: 10518.
+Memory consumption went from 0.73 GB to 0.71 GB.
+Total: 67.684400 ms (FindLiveObjects: 3.244200 ms CreateObjectMapping: 0.934900 ms MarkObjects: 51.557200 ms  DeleteObjects: 11.317700 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received 'a84cad5a-7313-41b8-b73b-4879613fb609'.
+MonoPathRemapper: Attempts to remap: 47411; Successful remaps: 22538
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout D:\My project (7)\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/imv25/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Killing ADB server in 0.1136125 seconds.
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-v_rudra_14-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-v_rudra_14 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 00000000000035A8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006144, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000035A8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006144, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4492
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791779105239,"processId":3684,"allocatedMemory":17183767,"memoryLabels":[{"Default":199730},{"Permanent":15516},{"NewDelete":75461},{"Thread":4198024},{"Manager":821597},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":853808},{"Material":68},{"GfxDevice":55968},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":17312},{"Input":45280},{"JobScheduler":256},{"TextLib":23254},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":1459724},{"BaseObject":50480},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":37107},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":955038},{"StaticString":3808},{"Utility":2674970},{"PoolAlloc":2360},{"AI":80},{"TypeTree":20997},{"ScriptManager":18984},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":8304},{"WebRequest":6503},{"VR":55506},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":1080},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":153599},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4962005},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36882},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":216},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":696},{"AssetReference":32},{"IPCStream":32}]}

@@ -1,0 +1,1428 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 4588)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 3660)
+VBCSCompiler prewarm took 42.24 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-v_rudra_14" at "2026-10-12T05:12:32.6068429Z"
+Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15709 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-12T05:12:32Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+-projectpath
+D:\My project (7)
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-v_rudra_14
+-hubSessionId
+8e8a5826-278e-4206-9b95-818452ae21d3
+-accessToken
+PiBN8CmqGUAy_RIWDSb7_gOhKomVhVprcQrwlEKowXs00cf
+Successfully changed project path to: D:\My project (7)
+D:/My project (7)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [10336]  Target information:
+
+Player connection [10336]  * "[IP] 192.168.202.1 [Port] 55505 [Flags] 2 [Guid] 830627913 [EditorId] 830627913 [Version] 1048832 [Id] WindowsEditor(7,V_RUDRA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10336]  * "[IP] 192.168.225.1 [Port] 55505 [Flags] 2 [Guid] 830627913 [EditorId] 830627913 [Version] 1048832 [Id] WindowsEditor(7,V_RUDRA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10336]  * "[IP] 172.16.0.2 [Port] 55505 [Flags] 2 [Guid] 830627913 [EditorId] 830627913 [Version] 1048832 [Id] WindowsEditor(7,V_RUDRA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10336]  * "[IP] 10.0.99.110 [Port] 55505 [Flags] 2 [Guid] 830627913 [EditorId] 830627913 [Version] 1048832 [Id] WindowsEditor(7,V_RUDRA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10336] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10336] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4944, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              eb8c0b03fe924460b815e750ba3afa44
+  Correlation Id:          61aeb93eefe796897c1474aed258efb9
+  External correlation Id: 3170033039695220664
+  Machine Id:              TDHd9PIacSLVIrgHTQfvktvkJpg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-v_rudra_14" (connect: 0.00s, validation: 0.00s, handshake: 0.16s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-v_rudra_14-notifications" at "2026-10-12T05:12:32.7741823Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token PiBN8CmqGU...
+Input System module state changed to: Initialized.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469966753960-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.19s
+[Package Manager] Connected to IPC stream "Upm-13960" after 0.7 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 45c442418746d7b0373b59107ce25094
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = D:/My project (7)Unity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/My project (7)/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.9282
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.015064 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.895 seconds
+Domain Reload Profiling: 3509ms
+	BeginReloadAssembly (392ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (223ms)
+	LoadAllAssembliesAndSetupDomain (932ms)
+		LoadAssemblies (373ms)
+		TypeCache.Refresh (635ms)
+			TypeCache.ScanAssembly (601ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1898ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (149ms)
+			BeforeProcessingInitializeOnLoad (287ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (554ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 66 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: D:\My project (7)\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: D:\My project (7)\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: D:\My project (7)\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: D:\My project (7)\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: D:\My project (7)\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: D:\My project (7)\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.xr.interaction.toolkit@3.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.interaction.toolkit@c7557c6c9ee4)
+    com.unity.xr.management@4.7.0 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.management@2ad85c7dd480)
+    com.unity.xr.oculus@4.5.5 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.oculus@bd9286b5058f)
+    com.unity.xr.openxr@1.18.0 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be)
+    com.unity.xr.core-utils@2.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: D:\My project (7)\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.searcher@4.9.5 (location: D:\My project (7)\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: D:\My project (7)\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: D:\My project (7)\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.render-pipelines.universal@327d93d1cbc8)
+    com.unity.test-framework@1.8.0 (location: D:\My project (7)\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.ugui@0727b404f3a0)
+    com.unity.modules.accessibility@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.mathematics@1.4.0 (location: D:\My project (7)\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.ext.nunit@2.1.0 (location: D:\My project (7)\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.render-pipelines.core@02d75770e4b3)
+    com.unity.shadergraph@17.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.shadergraph@1dd0fd24b57e)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: D:\My project (7)\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: D:\My project (7)\Library\PackageCache\com.unity.test-framework.performance@b6023decb532)
+[Package Manager] com.unity.xr.oculus is deprecated: This package is no longer supported on this editor version.
+[Subsystems] Looking for new subsystems at path D:\My project (7)\Library\PackageCache\com.unity.xr.oculus@bd9286b5058f
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.oculus@bd9286b5058f/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/My project (7)/Assets
+[Subsystems] Discovering subsystems at path D:\My project (7)\Library\PackageCache\com.unity.xr.oculus@bd9286b5058f
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.oculus@bd9286b5058f/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.oculus@bd9286b5058f/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.oculus@bd9286b5058f/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.oculus@bd9286b5058f/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] Discovering subsystems at path D:\My project (7)\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json.
+[Package Manager] Done registering packages in 0.07 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/My project (7)
+ExitCode: 0 Duration: 0s720ms
+[1021/1334  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.63 seconds), 1 items updated, 1334 evaluated
+AssetDatabase: script compilation time: 2.028719s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 14.04 ms, found 13 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 14.59 ms, found 13 plugins.
+[XR] OculusXRPlugin: registering subsystems
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] Oculus Input lifecycle provider registered.
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus input
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] OVRP version 1.92.0
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.002 seconds
+Domain Reload Profiling: 5726ms
+	BeginReloadAssembly (743ms)
+		DisableScriptedObjects (72ms)
+		CreateAndSetChildDomain (200ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (204ms)
+	LoadAllAssembliesAndSetupDomain (1702ms)
+		LoadAssemblies (882ms)
+		TypeCache.Refresh (525ms)
+			TypeCache.ScanAssembly (489ms)
+		AnalyzeDomain (196ms)
+			BuildScriptInfoCaches (171ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3005ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			BeforeProcessingInitializeOnLoad (295ms)
+			ProcessInitializeOnLoadAttributes (1254ms)
+			ProcessInitializeOnLoadMethodAttributes (281ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (75ms)
+Starting new worker id: 0 with log in D:/My project (7)/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=d759e955e04fe4644b9ed4b3e80500d4): Total: 9.771 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4470 ms
+		Asset DB Callback time: managed=119 ms, native=74 ms
+		Scripting: domain reloads=1, domain reload time=2897 ms, compile time=2036 ms, other=172 ms
+		Project Asset Count: scripts=1966, non-scripts=3357
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 78.726ms
+	ApplyChangesToAssetFolders: 1.599ms
+	Scan: 314.080ms
+	Collect global state as custom dependencies: 45.456ms
+	CategorizeScriptCompilationAssets: 115.490ms
+	ProcessAssetsWithTransientArtifactChanges: 235.701ms
+	CategorizeAssets: 207.585ms
+	CompileScripts: 2035.736ms
+	ImportOutOfDateAssets: 3085.142ms (3054.028ms without children)
+		ReloadNativeAssets: 0.113ms
+		UnloadImportedAssets: 4.352ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.801ms
+		ImportSchedulerStart: 24.841ms
+	PostProcessAllAssets: 119.747ms
+		MonoPostProcessAllAssets: 119.607ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 42.108ms
+			SyncVS.PostprocessSyncProject 32.058ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 5.241ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.835ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.118ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.980ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.728ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 1.046ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.719ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.706ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.559ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.403ms
+	UnloadStreamsBegin: 2.988ms
+	PersistCurrentRevisions: 0.349ms
+	GenerateScriptTypeHashes: 16.152ms
+	GenerateScriptTypeSerializationHashes: 27.736ms
+	Untracked: 3470.590ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Scanning for USB devices : 3.408ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project (7)
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Level1_DiningRoom.unity'
+	Deserialize:            13.542 ms
+	Integration:            101.738 ms
+	Integration of assets:  0.075 ms
+	Thread Wait Time:       0.333 ms
+	Total Operation Time:   115.687 ms
+Unloading 7903 unused Assets / (13.1 MB). Loaded Objects now: 9379.
+Memory consumption went from 464.0 MB to 450.9 MB.
+Total: 26.221400 ms (FindLiveObjects: 1.465400 ms CreateObjectMapping: 0.664200 ms MarkObjects: 15.080300 ms  DeleteObjects: 8.354700 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+[LAYOUT] About to save layout D:\My project (7)\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/imv25/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+[Project] Loading completed in 24.097 seconds
+	Project init time: 				17.682 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.675 seconds
+		Asset Database init time: 		1.201 seconds
+		Global illumination init time: 	0.005 seconds
+		Assemblies load time: 			3.675 seconds
+		Unity extensions init time: 	0.061 seconds
+		Asset Database refresh time: 	9.771 seconds
+	Scene opening time: 			5.955 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791781976472,"processId":13960,"projectLoad":24.0969433,"projectInit":17.6817432,"templateInit":0.0,"packageManagerInit":0.675467,"assetDatabaseInit":1.2013524,"globalIlluminationInit":0.0052851,"assembliesLoad":3.6750135,"unityExtensionsInit":0.0613976,"assetDatabaseRefresh":9.7708788,"sceneOpening":5.9554125}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791781976473,"processId":13960,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=2bc98efbad2a9064bb4066d2fb632d7e): Total: 0.217 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Dynamic Batching has been removed and no longer has any effect. Use SRP Batcher or GPU Instancing instead. Disable Dynamic Batching in the Universal Render Pipeline Asset to remove this error.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineBatchingWarning:WarnIfDynamicBatchingEnabled () (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Editor/UniversalRenderPipelineAsset/UniversalRenderPipelineBatchingWarning.cs:31)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.EditorGUIUtility:RenderPlayModeViewCamerasInternal (UnityEngine.RenderTexture,int,UnityEngine.Vector2,bool,bool)
+UnityEditor.PlayModeView:RenderView (UnityEngine.Vector2,bool)
+UnityEditor.GameView:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint ()
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,System.Exception&)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Texture,UnityEngine.UIElements.UIR.ShaderInfoAllocator,System.Nullable`1<UnityEngine.Rect>,UnityEngine.Rect,single,bool,UnityEngine.UIElements.TextureSlotCount,bool,System.Exception&,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree,UnityEngine.RenderTexture,UnityEngine.RectInt,UnityEngine.Rect)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderRootTree ()
+UnityEngine.UIElements.UIRRepaintUpdater:Render ()
+UnityEngine.UIElements.BaseVisualElementPanel:Render ()
+UnityEngine.UIElements.Panel:Render ()
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Editor/UniversalRenderPipelineAsset/UniversalRenderPipelineBatchingWarning.cs Line: 31)
+
+Android Extension - Scanning For ADB Devices 2467 ms
+[EscapeRoom] Launching Escape Room Campaign in Unity Play Mode (Assets/Scenes/Level1_DiningRoom.unity)! Enjoy playing!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Editor.EscapeRoomPlayRunner:LaunchGameInUnity () (at Assets/VR Beginner/Scripts/Editor/EscapeRoomPlayRunner.cs:57)
+VRBeginner.Editor.EscapeRoomPlayRunner:OnEditorReady () (at Assets/VR Beginner/Scripts/Editor/EscapeRoomPlayRunner.cs:31)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/VR Beginner/Scripts/Editor/EscapeRoomPlayRunner.cs Line: 57)
+
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 15.59 ms, found 13 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 16.37 ms, found 13 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  4.639 seconds
+Domain Reload Profiling: 6636ms
+	BeginReloadAssembly (1124ms)
+		DisableScriptedObjects (259ms)
+		CreateAndSetChildDomain (421ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (50ms)
+	initialDomainReloadingComplete (186ms)
+	LoadAllAssembliesAndSetupDomain (605ms)
+		LoadAssemblies (386ms)
+		TypeCache.Refresh (15ms)
+		AnalyzeDomain (68ms)
+			ResolveRequiredComponents (61ms)
+	FinalizeReload (4641ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (1239ms)
+			ProcessInitializeOnLoadMethodAttributes (255ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (1674ms)
+No restricted APIs configured; Validation skipped.
+Checking 18 assemblies for restricted APIs found 0 usage(s) in 9 ms
+Refreshing native plugins compatible for Editor in 17.48 ms, found 13 plugins.
+
+Asset Pipeline Refresh (id=17d18ef70913a9e4d89c62391289ea6d): Total: 11.140 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=5508 ms
+		Asset DB Callback time: managed=2881 ms, native=582 ms
+		Scripting: domain reloads=1, domain reload time=2162 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=1966, non-scripts=3357
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 4.908ms
+	ApplyChangesToAssetFolders: 0.575ms
+	Collect global state as custom dependencies: 5.970ms
+	ProcessAssetsWithTransientArtifactChanges: 493.786ms
+	CategorizeAssets: 175.177ms
+	CompileScripts: 4.897ms
+	ImportOutOfDateAssets: 4688.938ms (4677.609ms without children)
+		CollectScriptTypesHashes: 3.612ms
+		ReloadNativeAssets: 2.644ms
+		UnloadImportedAssets: 6.309ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.666ms
+		ImportSchedulerStart: 0.656ms
+	PostProcessAllAssets: 3419.002ms
+		AssemblyValidation.PostprocessAllAssets 76.376ms
+		PostProcessCallbackCreateDeferredMaterials 61.427ms
+		PostprocessAssetsUpdateCachedIcon 42.200ms
+		ComputeShaderImportPostprocess 36.176ms
+		ShaderAssetModifiedCallback 29.648ms
+		RaytracingShaderImportPostprocess 29.244ms
+		SpeedTreeImporter.PostprocessAllAssets 19.496ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 13.599ms
+		BlockShaderImporter.PostprocessAllAssets 9.307ms
+		XRBuildSystem.XRAssetImported 3.031ms
+		MonoPostProcessAllAssets: 2874.413ms
+			SyncVS.PostprocessSyncProject 1052.513ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 578.062ms
+			AssetPostprocessor.OnPostprocessAllAssets 363.827ms
+			MaterialPostprocessor.OnPostprocessAllAssets 138.457ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 126.364ms
+			PostProcessor.OnPostprocessAllAssets 118.480ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 99.799ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 63.088ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 44.459ms
+			AssetChangedListener.OnPostprocessAllAssets 41.826ms
+			AssetCallbacks.OnPostprocessAllAssets 31.140ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 20.953ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 14.804ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 14.006ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 5.384ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.129ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.896ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.576ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 1.543ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.374ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.163ms
+			ThemePostprocessor.OnPostprocessAllAssets 1.104ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.094ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.973ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.898ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.780ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.729ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.631ms
+			AssetEvents.OnPostprocessAllAssets 0.555ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.524ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.432ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.403ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.370ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.296ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.215ms
+	PostAssetChangesProfiler: 44.020ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.456ms
+	UnloadStreamsBegin: 3.049ms
+	PersistCurrentRevisions: 0.411ms
+	GenerateScriptTypeHashes: 18.572ms
+	GenerateScriptTypeSerializationHashes: 30.758ms
+	Untracked: 2249.094ms
+
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : Failed loading runtime information
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : xrCreateInstance failed
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus input
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Display
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus input
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Input
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Display
+Loading OpenXR loader library at path: D:\My project (7)\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be\RuntimeLoaders\windows\x64\openxr_loader.dll
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:LoadOpenXRSymbols () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:572)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:254)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:224)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRManagerSettings.cs:177)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:154)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:112)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs Line: 572)
+
+[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+[XR] [10336] [10:43:15.966][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [10336] [10:43:15.967][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [10336] [10:43:15.967][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [10336] [10:43:15.967][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [10336] [10:43:15.968][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [10336] [10:43:15.968][Info   ] Available Layers: (0)
+[XR] [10336] [10:43:15.969][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [10336] [10:43:15.971][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [10336] [10:43:15.972][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [10336] [10:43:15.972][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [10336] [10:43:15.972][Info   ] ==== OpenXR Settings ====
+[XR] [10336] [10:43:15.972][Info   ] 
+[XR] [10336] [10:43:15.972][Info   ] Symmetric Projection: False
+[XR] [10336] [10:43:15.972][Info   ] Stereo Rendering Mode: MultiPass
+[XR] [10336] [10:43:15.972][Info   ] Latency Optimization: PrioritizeRendering
+[XR] [10336] [10:43:15.972][Info   ] Color Submission Modes: kRenderTextureFormatGroup8888
+[XR] [10336] [10:43:15.972][Info   ] Depth Submission Mode: None
+[XR] [10336] [10:43:15.972][Info   ] Space Warp Motion Vector Texture Format: RGBA16f
+[XR] [10336] [10:43:15.972][Info   ] Optimize Buffer Discards: False
+[XR] [10336] [10:43:15.973][Info   ] Multiview Render Regions Optimization Mode: None
+[XR] [10336] [10:43:15.973][Info   ] Use OpenXR Predicted Time: False
+[XR] [10336] [10:43:15.973][Info   ] Foveated Rendering API: Legacy
+[XR] [10336] [10:43:15.973][Info   ] 
+[XR] [10336] [10:43:15.973][Info   ] ==== OpenXR Provider Info ====
+[XR] [10336] [10:43:15.973][Info   ] 
+[XR] [10336] [10:43:15.973][Info   ] Provider Version: ecb5f4e-dirty
+[XR] [10336] [10:43:15.973][Info   ] App: My project (7) #3118937138
+[XR] [10336] [10:43:15.973][Info   ] Engine: 6000.6.3f1 #90190849
+[XR] [10336] [10:43:15.973][Info   ] 
+[XR] [10336] [10:43:15.973][Info   ] ==== OpenXR Runtime Info ====
+[XR] [10336] [10:43:15.973][Info   ] 
+[XR] [10336] [10:43:15.973][Info   ] Available Layers: (0)
+[XR] [10336] [10:43:15.973][Info   ] 
+[XR] [10336] [10:43:15.973][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [10336] [10:43:15.973][Info   ] [FAILURE] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE (5x)
+[XR] [10336] [10:43:15.973][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE (1x)
+[XR] [10336] [10:43:15.973][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [10336] [10:43:15.973][Info   ] 
+[XR] [10336] [10:43:15.973][Info   ] ==== Last 20 Events ====
+[XR] [10336] [10:43:15.973][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+[EscapeRoomBootstrap] First-Person Player Mode successfully initialized at (0.00, 0.15, -3.50) in Level1_DiningRoom!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.EscapeRoomBootstrap:SetupPlayer () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:250)
+VRBeginner.Gameplay.EscapeRoomBootstrap:Awake () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:58)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 250)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.001 ms
+	Integration:            1501.944 ms
+	Integration of assets:  0.087 ms
+	Thread Wait Time:       0.031 ms
+	Total Operation Time:   1507.063 ms
+Dynamic Batching has been removed and no longer has any effect. Use SRP Batcher or GPU Instancing instead. Disable Dynamic Batching in the Universal Render Pipeline Asset to remove this error.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineBatchingWarning:WarnIfDynamicBatchingEnabled () (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Editor/UniversalRenderPipelineAsset/UniversalRenderPipelineBatchingWarning.cs:31)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.EditorGUIUtility:RenderPlayModeViewCamerasInternal (UnityEngine.RenderTexture,int,UnityEngine.Vector2,bool,bool)
+UnityEditor.PlayModeView:RenderView (UnityEngine.Vector2,bool)
+UnityEditor.GameView:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint ()
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,System.Exception&)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Texture,UnityEngine.UIElements.UIR.ShaderInfoAllocator,System.Nullable`1<UnityEngine.Rect>,UnityEngine.Rect,single,bool,UnityEngine.UIElements.TextureSlotCount,bool,System.Exception&,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree,UnityEngine.RenderTexture,UnityEngine.RectInt,UnityEngine.Rect)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderRootTree ()
+UnityEngine.UIElements.UIRRepaintUpdater:Render ()
+UnityEngine.UIElements.BaseVisualElementPanel:Render ()
+UnityEngine.UIElements.Panel:Render ()
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Editor/UniversalRenderPipelineAsset/UniversalRenderPipelineBatchingWarning.cs Line: 31)
+
+Created GICache directory at C:/Users/imv25/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.065s, timestamps: [24.380 - 24.445]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.226 ms
+	Integration:            41.321 ms
+	Integration of assets:  0.058 ms
+	Thread Wait Time:       0.058 ms
+	Total Operation Time:   45.662 ms
+Unloading 6928 unused Assets / (21.9 MB). Loaded Objects now: 10509.
+Memory consumption went from 0.73 GB to 0.70 GB.
+Total: 72.653900 ms (FindLiveObjects: 3.291500 ms CreateObjectMapping: 1.219200 ms MarkObjects: 54.633200 ms  DeleteObjects: 12.796200 ms)
+
+Android Extension - Scanning For ADB Devices 489 ms
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "PiBN8Cmq"... (expires: 2026-10-12T06:19:12Z)
+[Licensing::Client] Successfully resolved entitlement details
+Android Extension - Scanning For ADB Devices 430 ms
+[Licensing::Client] Successfully resolved entitlement details
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 415 ms
+UPID Received 'a84cad5a-7313-41b8-b73b-4879613fb609'.
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 20mb
+Scanning for USB devices : 3.648ms
+Scanning for USB devices : 1.401ms
+Scanning for USB devices : 1.430ms
+Scanning for USB devices : 2.941ms
+Scanning for USB devices : 3.845ms
+Scanning for USB devices : 2.316ms
+Scanning for USB devices : 1.871ms
+Scanning for USB devices : 2.049ms
+Scanning for USB devices : 2.178ms
+Scanning for USB devices : 2.003ms
+Scanning for USB devices : 2.525ms
+Scanning for USB devices : 2.331ms
+Scanning for USB devices : 2.785ms
+Scanning for USB devices : 2.139ms
+Scanning for USB devices : 2.228ms
+Scanning for USB devices : 2.299ms
+Android Extension - Scanning For ADB Devices 1093 ms
+Scanning for USB devices : 1.904ms
+Scanning for USB devices : 2.025ms
+Scanning for USB devices : 2.986ms
+Scanning for USB devices : 2.192ms
+Scanning for USB devices : 2.419ms
+Scanning for USB devices : 2.763ms
+Scanning for USB devices : 3.466ms
+Scanning for USB devices : 9.344ms
+Scanning for USB devices : 8.411ms
+Scanning for USB devices : 6.200ms
+Scanning for USB devices : 3.850ms
+Scanning for USB devices : 2.550ms
+Scanning for USB devices : 4.816ms
+Scanning for USB devices : 3.441ms
+Scanning for USB devices : 1.766ms
+Scanning for USB devices : 1.498ms
+Scanning for USB devices : 3.910ms
+Scanning for USB devices : 2.167ms
+Scanning for USB devices : 1.686ms
+Scanning for USB devices : 1.407ms
+Scanning for USB devices : 2.130ms
+Scanning for USB devices : 1.579ms
+Scanning for USB devices : 1.584ms
+Scanning for USB devices : 1.668ms
+Scanning for USB devices : 1.944ms
+Scanning for USB devices : 1.616ms
+Scanning for USB devices : 1.647ms
+Scanning for USB devices : 2.531ms
+Scanning for USB devices : 2.305ms
+Scanning for USB devices : 1.553ms
+Scanning for USB devices : 1.702ms
+Scanning for USB devices : 2.186ms
+Scanning for USB devices : 1.565ms
+Scanning for USB devices : 1.613ms
+Scanning for USB devices : 3.688ms
+Scanning for USB devices : 3.643ms
+Android Extension - Scanning For ADB Devices 2103 ms
+Scanning for USB devices : 1.872ms
+Scanning for USB devices : 1.759ms
+Scanning for USB devices : 1.605ms
+Curl error 35: Recv failure: Connection was reset
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Scanning for USB devices : 1.578ms
+Scanning for USB devices : 2.531ms
+Scanning for USB devices : 2.368ms
+Scanning for USB devices : 1.619ms
+Scanning for USB devices : 4.493ms
+Scanning for USB devices : 2.801ms
+Scanning for USB devices : 2.300ms
+Scanning for USB devices : 2.101ms
+Asset Pipeline Refresh (id=89e3c55c6dd1d2043ad159ed92c3f988): Total: 0.012 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 after 0 ms: Could not connect to server
+Android Extension - Scanning For ADB Devices 916 ms
+Scanning for USB devices : 1.774ms
+Scanning for USB devices : 2.037ms
+Scanning for USB devices : 1.717ms
+Scanning for USB devices : 2.612ms
+Scanning for USB devices : 4.211ms
+Scanning for USB devices : 7.000ms
+Scanning for USB devices : 6.285ms
+Scanning for USB devices : 7.543ms
+Scanning for USB devices : 2.865ms
+Scanning for USB devices : 2.743ms
+Scanning for USB devices : 2.945ms
+Scanning for USB devices : 2.659ms
+Scanning for USB devices : 2.466ms
+Scanning for USB devices : 2.115ms
+Scanning for USB devices : 8.013ms
+Scanning for USB devices : 3.355ms
+Scanning for USB devices : 2.416ms
+Scanning for USB devices : 7.699ms
+Scanning for USB devices : 2.438ms
+Scanning for USB devices : 2.857ms
+Scanning for USB devices : 3.316ms
+Scanning for USB devices : 2.391ms
+Scanning for USB devices : 2.702ms
+Scanning for USB devices : 2.348ms
+Scanning for USB devices : 2.169ms
+Scanning for USB devices : 2.314ms
+Scanning for USB devices : 5.034ms
+Scanning for USB devices : 4.337ms
+Scanning for USB devices : 2.474ms
+Scanning for USB devices : 2.123ms
+Scanning for USB devices : 2.534ms
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 after 0 ms: Could not connect to server
+Android Extension - Scanning For ADB Devices 1635 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 after 7 ms: Could not connect to server
+Android Extension - Scanning For ADB Devices 43195 ms
+Asset Pipeline Refresh (id=17a30a4a70cab8c4ab97794be5e5bffd): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 16.58 ms, found 13 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 16.67 ms, found 13 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  5.685 seconds
+Domain Reload Profiling: 7804ms
+	BeginReloadAssembly (1190ms)
+		DisableScriptedObjects (262ms)
+		CreateAndSetChildDomain (475ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (691ms)
+		LoadAssemblies (408ms)
+		TypeCache.Refresh (16ms)
+		AnalyzeDomain (83ms)
+			ResolveRequiredComponents (74ms)
+	FinalizeReload (5688ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (6ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			BeforeProcessingInitializeOnLoad (327ms)
+			ProcessInitializeOnLoadAttributes (1350ms)
+			ProcessInitializeOnLoadMethodAttributes (326ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (1966ms)
+
+Asset Pipeline Refresh (id=f3c60e3c432570941a7923d253eb1609): Total: 8.521 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=6088 ms
+		Asset DB Callback time: managed=136 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=2287 ms, compile time=7 ms, other=0 ms
+		Project Asset Count: scripts=1966, non-scripts=3357
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 4.548ms
+	ApplyChangesToAssetFolders: 0.708ms
+	Collect global state as custom dependencies: 11.585ms
+	ProcessAssetsWithTransientArtifactChanges: 0.324ms
+	CategorizeAssets: 210.787ms
+	CompileScripts: 6.619ms
+	ImportOutOfDateAssets: 5733.986ms (5726.350ms without children)
+		CollectScriptTypesHashes: 1.970ms
+		ReloadNativeAssets: 3.673ms
+		UnloadImportedAssets: 0.702ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.241ms
+		ImportSchedulerStart: 0.942ms
+	PostProcessAllAssets: 136.901ms
+		MonoPostProcessAllAssets: 136.890ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 578.062ms
+			AssetPostprocessor.OnPostprocessAllAssets 363.827ms
+			MaterialPostprocessor.OnPostprocessAllAssets 138.457ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 126.364ms
+			PostProcessor.OnPostprocessAllAssets 118.480ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 63.088ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 56.535ms
+			AssetChangedListener.OnPostprocessAllAssets 41.826ms
+			AssetCallbacks.OnPostprocessAllAssets 31.140ms
+			SyncVS.PostprocessSyncProject 30.312ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 20.953ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 5.838ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.458ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 5.384ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 2.193ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.896ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.720ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 1.543ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.163ms
+			ThemePostprocessor.OnPostprocessAllAssets 1.104ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.094ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 1.091ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.020ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.973ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.973ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.898ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.724ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.631ms
+			AssetEvents.OnPostprocessAllAssets 0.555ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.541ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.497ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.432ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.370ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.296ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.215ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.526ms
+	UnloadStreamsBegin: 0.146ms
+	PersistCurrentRevisions: 0.338ms
+	GenerateScriptTypeHashes: 20.561ms
+	GenerateScriptTypeSerializationHashes: 33.844ms
+	Untracked: 2370.792ms
+
+Loading OpenXR loader library at path: D:\My project (7)\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be\RuntimeLoaders\windows\x64\openxr_loader.dll
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:LoadOpenXRSymbols () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:572)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:254)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:224)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRManagerSettings.cs:177)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:154)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:112)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs Line: 572)
+
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+[XR] [10336] [10:50:13.410][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [10336] [10:50:13.411][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed to find default runtime with RuntimeInterface::LoadRuntime()
+[XR] [10336] [10:50:13.411][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [10336] [10:50:13.412][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+Error [GENERAL | xrEnumerateInstanceExtensionProperties | OpenXR-Loader] : Failed querying extension properties
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - unknown error
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : RuntimeInterface::LoadRuntimes - failed to load a runtime
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : Failed loading runtime information
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : xrCreateInstance failed
+[XR] [10336] [10:50:13.412][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [10336] [10:50:13.413][Info   ] Available Layers: (0)
+[XR] [10336] [10:50:13.413][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [10336] [10:50:13.416][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [10336] [10:50:13.417][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [10336] [10:50:13.417][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [10336] [10:50:13.418][Info   ] ==== OpenXR Settings ====
+[XR] [10336] [10:50:13.418][Info   ] 
+[XR] [10336] [10:50:13.418][Info   ] Symmetric Projection: False
+[XR] [10336] [10:50:13.418][Info   ] Stereo Rendering Mode: MultiPass
+[XR] [10336] [10:50:13.418][Info   ] Latency Optimization: PrioritizeRendering
+[XR] [10336] [10:50:13.418][Info   ] Color Submission Modes: kRenderTextureFormatGroup8888
+[XR] [10336] [10:50:13.418][Info   ] Depth Submission Mode: None
+[XR] [10336] [10:50:13.418][Info   ] Space Warp Motion Vector Texture Format: RGBA16f
+[XR] [10336] [10:50:13.418][Info   ] Optimize Buffer Discards: False
+[XR] [10336] [10:50:13.418][Info   ] Multiview Render Regions Optimization Mode: None
+[XR] [10336] [10:50:13.418][Info   ] Use OpenXR Predicted Time: False
+[XR] [10336] [10:50:13.418][Info   ] Foveated Rendering API: Legacy
+[XR] [10336] [10:50:13.418][Info   ] 
+[XR] [10336] [10:50:13.418][Info   ] ==== OpenXR Provider Info ====
+[XR] [10336] [10:50:13.418][Info   ] 
+[XR] [10336] [10:50:13.418][Info   ] Provider Version: ecb5f4e-dirty
+[XR] [10336] [10:50:13.418][Info   ] App: My project (7) #3118937138
+[XR] [10336] [10:50:13.418][Info   ] Engine: 6000.6.3f1 #90190849
+[XR] [10336] [10:50:13.418][Info   ] 
+[XR] [10336] [10:50:13.418][Info   ] ==== OpenXR Runtime Info ====
+[XR] [10336] [10:50:13.418][Info   ] 
+[XR] [10336] [10:50:13.418][Info   ] Available Layers: (0)
+[XR] [10336] [10:50:13.418][Info   ] 
+[XR] [10336] [10:50:13.418][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [10336] [10:50:13.418][Info   ] [FAILURE] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE (5x)
+[XR] [10336] [10:50:13.418][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE (1x)
+[XR] [10336] [10:50:13.418][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [10336] [10:50:13.418][Info   ] 
+[XR] [10336] [10:50:13.418][Info   ] ==== Last 20 Events ====
+[XR] [10336] [10:50:13.418][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+[EscapeRoomBootstrap] First-Person Player Mode successfully initialized at (0.00, 0.15, -3.50) in Level1_DiningRoom!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.EscapeRoomBootstrap:SetupPlayer () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:250)
+VRBeginner.Gameplay.EscapeRoomBootstrap:Awake () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:58)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 250)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.950 ms
+	Integration:            2761.198 ms
+	Integration of assets:  0.064 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   2766.236 ms
+Dynamic Batching has been removed and no longer has any effect. Use SRP Batcher or GPU Instancing instead. Disable Dynamic Batching in the Universal Render Pipeline Asset to remove this error.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineBatchingWarning:WarnIfDynamicBatchingEnabled () (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Editor/UniversalRenderPipelineAsset/UniversalRenderPipelineBatchingWarning.cs:31)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.EditorGUIUtility:RenderPlayModeViewCamerasInternal (UnityEngine.RenderTexture,int,UnityEngine.Vector2,bool,bool)
+UnityEditor.PlayModeView:RenderView (UnityEngine.Vector2,bool)
+UnityEditor.GameView:OnGUI ()
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect)
+UnityEditor.DockArea:OldOnGUI ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint ()
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,System.Exception&)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Texture,UnityEngine.UIElements.UIR.ShaderInfoAllocator,System.Nullable`1<UnityEngine.Rect>,UnityEngine.Rect,single,bool,UnityEngine.UIElements.TextureSlotCount,bool,System.Exception&,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree,UnityEngine.RenderTexture,UnityEngine.RectInt,UnityEngine.Rect)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderRootTree ()
+UnityEngine.UIElements.UIRRepaintUpdater:Render ()
+UnityEngine.UIElements.BaseVisualElementPanel:Render ()
+UnityEngine.UIElements.Panel:Render ()
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Editor/UniversalRenderPipelineAsset/UniversalRenderPipelineBatchingWarning.cs Line: 31)
+
+Scanning for USB devices : 2002.543ms
+Scanning for USB devices : 2001.881ms
+Scanning for USB devices : 2002.624ms
+Scanning for USB devices : 2001.441ms
+Scanning for USB devices : 2002.247ms
+Scanning for USB devices : 2001.429ms
+Scanning for USB devices : 2002.489ms
+Scanning for USB devices : 2002.573ms
+Scanning for USB devices : 2001.965ms
+Scanning for USB devices : 2002.717ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 2002.045ms
+Scanning for USB devices : 2001.357ms
+Scanning for USB devices : 2001.584ms
+Scanning for USB devices : 2001.796ms
+Scanning for USB devices : 2001.297ms
+Scanning for USB devices : 2001.735ms
+[GameLevelManager] Loading Level 2: Level2_MedievalRoom (MEDIUM)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.GameLevelManager:LoadLevel (int) (at Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs:122)
+VRBeginner.Gameplay.EscapeRoomHUD:RenderTabOthers (UnityEngine.Rect) (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:1033)
+VRBeginner.Gameplay.EscapeRoomHUD:RenderPauseMenu () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:765)
+VRBeginner.Gameplay.EscapeRoomHUD:OnGUI () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:313)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs Line: 122)
+
+Unloading 95 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 13.035900 ms
+[EscapeRoomBootstrap] First-Person Player Mode successfully initialized at (0.00, 0.05, -2.60) in Level2_MedievalRoom!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.EscapeRoomBootstrap:SetupPlayer () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:250)
+VRBeginner.Gameplay.EscapeRoomBootstrap:Awake () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:58)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 250)
+
+Loaded scene 'Assets/Scenes/Level2_MedievalRoom.unity'
+	Deserialize:            1504.145 ms
+	Integration:            95.812 ms
+	Integration of assets:  1.171 ms
+	Thread Wait Time:       22.341 ms
+	Total Operation Time:   1623.468 ms
+Unloading 609 unused Assets / (2.7 MB). Loaded Objects now: 10565.
+Memory consumption went from 1.12 GB to 1.12 GB.
+Total: 77.667600 ms (FindLiveObjects: 3.003000 ms CreateObjectMapping: 1.073200 ms MarkObjects: 70.351200 ms  DeleteObjects: 2.407100 ms)
+
+[GameLevelManager] Loading Level 1: Level1_DiningRoom (EASY)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.GameLevelManager:LoadLevel (int) (at Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs:122)
+VRBeginner.Gameplay.EscapeRoomHUD:RenderTabOthers (UnityEngine.Rect) (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:1025)
+VRBeginner.Gameplay.EscapeRoomHUD:RenderPauseMenu () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:765)
+VRBeginner.Gameplay.EscapeRoomHUD:OnGUI () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:313)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs Line: 122)
+
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.321900 ms
+[EscapeRoomBootstrap] First-Person Player Mode successfully initialized at (0.00, 0.15, -3.50) in Level1_DiningRoom!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.EscapeRoomBootstrap:SetupPlayer () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:250)
+VRBeginner.Gameplay.EscapeRoomBootstrap:Awake () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:58)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 250)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            10.873 ms
+	Integration:            99.155 ms
+	Integration of assets:  0.961 ms
+	Thread Wait Time:       21.377 ms
+	Total Operation Time:   132.366 ms
+Unloading 92 unused Assets / (254.9 KB). Loaded Objects now: 11029.
+Memory consumption went from 1.12 GB to 1.12 GB.
+Total: 73.137300 ms (FindLiveObjects: 2.939500 ms CreateObjectMapping: 0.735900 ms MarkObjects: 68.244100 ms  DeleteObjects: 0.534800 ms)
+
+[GameLevelManager] Loading Level 2: Level2_MedievalRoom (MEDIUM)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.GameLevelManager:LoadLevel (int) (at Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs:122)
+VRBeginner.Gameplay.GameLevelManager:LoadNextLevel () (at Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs:165)
+VRBeginner.Gameplay.RoomEscapeDoor/<TriggerLevelCompleteRoutine>d__21:MoveNext () (at Assets/VR Beginner/Scripts/Gameplay/RoomEscapeDoor.cs:200)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs Line: 122)
+
+Unloading 98 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.104100 ms
+[EscapeRoomBootstrap] First-Person Player Mode successfully initialized at (0.00, 0.05, -2.60) in Level2_MedievalRoom!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.EscapeRoomBootstrap:SetupPlayer () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:250)
+VRBeginner.Gameplay.EscapeRoomBootstrap:Awake () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:58)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 250)
+
+Loaded scene 'Assets/Scenes/Level2_MedievalRoom.unity'
+	Deserialize:            344.474 ms
+	Integration:            87.477 ms
+	Integration of assets:  1.325 ms
+	Thread Wait Time:       13.139 ms
+	Total Operation Time:   446.416 ms
+Unloading 524 unused Assets / (8.2 MB). Loaded Objects now: 10573.
+Memory consumption went from 1.12 GB to 1.11 GB.
+Total: 72.682500 ms (FindLiveObjects: 2.867100 ms CreateObjectMapping: 0.869400 ms MarkObjects: 65.747100 ms  DeleteObjects: 2.345600 ms)
+
+[GameLevelManager] Loading Level 3: Level3_WitchCottage (HARD)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.GameLevelManager:LoadLevel (int) (at Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs:122)
+VRBeginner.Gameplay.EscapeRoomHUD:RenderTabOthers (UnityEngine.Rect) (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:1041)
+VRBeginner.Gameplay.EscapeRoomHUD:RenderPauseMenu () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:765)
+VRBeginner.Gameplay.EscapeRoomHUD:OnGUI () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:313)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs Line: 122)
+
+Unloading 304 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.710200 ms
+[EscapeRoomBootstrap] First-Person Player Mode successfully initialized at (-2.20, 0.05, -0.20) in Level3_WitchCottage!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.EscapeRoomBootstrap:SetupPlayer () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:250)
+VRBeginner.Gameplay.EscapeRoomBootstrap:Awake () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:58)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 250)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at VRBeginner.Gameplay.EscapeRoomBootstrap.SetupLevelPuzzles () [0x00c36] in D:\My project (7)\Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs:590 
+  at VRBeginner.Gameplay.EscapeRoomBootstrap.Awake () [0x00012] in D:\My project (7)\Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs:59 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 590)
+
+Loaded scene 'Assets/Scenes/Level3_WitchCottage.unity'
+	Deserialize:            2089.512 ms
+	Integration:            366.284 ms
+	Integration of assets:  37.844 ms
+	Thread Wait Time:       11.448 ms
+	Total Operation Time:   2505.088 ms
+Unloading 2321 unused Assets / (417.9 MB). Loaded Objects now: 16095.
+Memory consumption went from 1.23 GB to 0.83 GB.
+Total: 90.328000 ms (FindLiveObjects: 3.324700 ms CreateObjectMapping: 0.732300 ms MarkObjects: 82.839300 ms  DeleteObjects: 2.631400 ms)
+
+[GameLevelManager] Loading Level 2: Level2_MedievalRoom (MEDIUM)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.GameLevelManager:LoadLevel (int) (at Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs:122)
+VRBeginner.Gameplay.EscapeRoomHUD:RenderTabOthers (UnityEngine.Rect) (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:1033)
+VRBeginner.Gameplay.EscapeRoomHUD:RenderPauseMenu () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:765)
+VRBeginner.Gameplay.EscapeRoomHUD:OnGUI () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:313)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs Line: 122)
+
+Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 52.667800 ms
+[EscapeRoomBootstrap] First-Person Player Mode successfully initialized at (0.00, 0.05, -2.60) in Level2_MedievalRoom!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.EscapeRoomBootstrap:SetupPlayer () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:250)
+VRBeginner.Gameplay.EscapeRoomBootstrap:Awake () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:58)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 250)
+
+Loaded scene 'Assets/Scenes/Level2_MedievalRoom.unity'
+	Deserialize:            334.861 ms
+	Integration:            124.661 ms
+	Integration of assets:  1.135 ms
+	Thread Wait Time:       18.067 ms
+	Total Operation Time:   478.723 ms
+Unloading 691 unused Assets / (6.3 MB). Loaded Objects now: 11008.
+Memory consumption went from 1.23 GB to 1.22 GB.
+Total: 80.084100 ms (FindLiveObjects: 4.038000 ms CreateObjectMapping: 1.131100 ms MarkObjects: 71.702600 ms  DeleteObjects: 2.435100 ms)
+
+[GameLevelManager] Loading Level 3: Level3_WitchCottage (HARD)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.GameLevelManager:LoadLevel (int) (at Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs:122)
+VRBeginner.Gameplay.EscapeRoomHUD:RenderTabOthers (UnityEngine.Rect) (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:1041)
+VRBeginner.Gameplay.EscapeRoomHUD:RenderPauseMenu () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:765)
+VRBeginner.Gameplay.EscapeRoomHUD:OnGUI () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomHUD.cs:313)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/GameLevelManager.cs Line: 122)
+
+Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.464300 ms
+[EscapeRoomBootstrap] First-Person Player Mode successfully initialized at (-2.20, 0.05, -0.20) in Level3_WitchCottage!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRBeginner.Gameplay.EscapeRoomBootstrap:SetupPlayer () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:250)
+VRBeginner.Gameplay.EscapeRoomBootstrap:Awake () (at Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs:58)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 250)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at VRBeginner.Gameplay.EscapeRoomBootstrap.SetupLevelPuzzles () [0x00c36] in D:\My project (7)\Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs:590 
+  at VRBeginner.Gameplay.EscapeRoomBootstrap.Awake () [0x00012] in D:\My project (7)\Assets\VR Beginner\Scripts\Gameplay\EscapeRoomBootstrap.cs:59 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+
+(Filename: Assets/VR Beginner/Scripts/Gameplay/EscapeRoomBootstrap.cs Line: 590)
+
+Loaded scene 'Assets/Scenes/Level3_WitchCottage.unity'
+	Deserialize:            281.162 ms
+	Integration:            228.543 ms
+	Integration of assets:  18.890 ms
+	Thread Wait Time:       9.920 ms
+	Total Operation Time:   538.515 ms
+Unloading 2321 unused Assets / (417.9 MB). Loaded Objects now: 16102.
+Memory consumption went from 1.25 GB to 0.84 GB.
+Total: 76.533200 ms (FindLiveObjects: 3.494300 ms CreateObjectMapping: 0.743000 ms MarkObjects: 68.801800 ms  DeleteObjects: 2.697500 ms)
+
+Unloading 97 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.073 ms
+	Integration:            98.686 ms
+	Integration of assets:  0.061 ms
+	Thread Wait Time:       0.059 ms
+	Total Operation Time:   101.879 ms
+Unloading 460 unused Assets / (62.8 MB). Loaded Objects now: 10939.
+Memory consumption went from 0.85 GB to 0.79 GB.
+Total: 76.622900 ms (FindLiveObjects: 3.151600 ms CreateObjectMapping: 0.808500 ms MarkObjects: 69.875900 ms  DeleteObjects: 2.016100 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Scanning for USB devices : 1.668ms
+Android Extension - Scanning For ADB Devices 1450 ms
+Android Extension - Scanning For ADB Devices 576 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 256 ms
+Android Extension - Scanning For ADB Devices 444 ms
+Scanning for USB devices : 1.134ms
+Scanning for USB devices : 0.870ms
+Scanning for USB devices : 1.163ms
+Scanning for USB devices : 1.041ms
+Scanning for USB devices : 1.007ms
+Scanning for USB devices : 1.323ms
+Scanning for USB devices : 1.217ms
+Scanning for USB devices : 1.222ms
+Asset Pipeline Refresh (id=72ad383cf0a9b3f4089ebaf4bb6caf59): Total: 0.032 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=c26ef8bab5de5fe41bc5175a5c1a8377): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 50585; Successful remaps: 22544
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout D:\My project (7)\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/imv25/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Killing ADB server in 0.0854988 seconds.
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-v_rudra_14-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-v_rudra_14 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000006378, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005AF8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006378, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005AF8, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4388
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791784609864,"processId":13960,"allocatedMemory":18089431,"memoryLabels":[{"Default":201386},{"Permanent":15516},{"NewDelete":77229},{"Thread":4197984},{"Manager":821597},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":853808},{"Material":68},{"GfxDevice":55968},{"Animation":2936},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":69184},{"Input":45280},{"JobScheduler":256},{"TextLib":23254},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":1459724},{"BaseObject":172880},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":46042},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":1825185},{"StaticString":3808},{"Utility":2675005},{"PoolAlloc":2360},{"AI":80},{"TypeTree":20997},{"ScriptManager":25312},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":6312},{"CloudService":8448},{"WebRequest":5922},{"VR":61074},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":1620},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":161},{"EditorUtility":153914},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4962005},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36882},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":216},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":696},{"AssetReference":32},{"IPCStream":32}]}
